@@ -98,3 +98,15 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .container {
+        width: 375px;
+    }
+    .input {
+        width: 300px;
+    }
+    .submit-container {
+        margin: 20px auto;
+        flex-flow: column;
+    }
+}
