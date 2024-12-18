@@ -1,0 +1,116 @@
+
+.container {
+    padding: 2rem;
+}
+
+.hero {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 0fr;
+    height: 100vh;
+    padding: 2rem;
+    gap: 0;
+    box-sizing: border-box;
+}
+
+.front-end-title, .back-end-title {
+    font-size: 32px;
+    font-weight: bold;
+    align-self: start;
+    line-height: 100px
+}
+
+.back-end-title {
+    position: relative;
+    top: -100%;
+}
+
+.hero-number {
+    align-self: end;
+    font-size: 8rem;
+}
+
+.animation-container {
+    height: 80vh;
+    display: grid
+}
+
+.contact-link {
+    cursor: pointer;
+}
+
+
+.accordions {
+    justify-items: right;
+}
+
+.accordion-item {
+    cursor: pointer;
+  }
+  
+.accordions {
+    flex: 1
+  }
+
+.accordion-title {
+    padding: 40px 0;
+}
+
+.layout-container {
+    position: fixed;
+}
+
+.front-end-accordion, .back-end-accordion {
+    max-width: 765px;
+    width: 100%;
+    margin-bottom: 24rem;
+}
+
+.hero {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.accordions {
+    position: relative;
+    margin-top: 200px; /* Makes sure .back-end-accordion starts below .hero-title */
+}
+
+.front-end-title .back-end-title {
+    position: relative;
+    display: inline-block;
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0;
+    overflow: hidden; /* Hides the letters when they move out */
+  }
+.hero-title {
+    position: relative;
+    display: inline-block;
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0;
+    overflow: hidden; /* Hides the letters when they move out */
+  }
+
+  .hero-title-end {
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .front-end-title span,
+  .back-end-title span {
+    display: inline-block;
+    transform-origin: center center; /* Keeps the movement centered */
+  }
+
+  .test {
+    overflow: hidden; /* This makes sure the letters FRONT and BACK don't overlap the word END*/
+}
+
